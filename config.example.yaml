@@ -1,0 +1,28 @@
+candidate:
+  name: 张三
+  city: 北京
+  target_titles:
+    - Python
+    - 自动化工程师
+  resume_path: ./resume.pdf
+  experiences:
+    - company: A科技
+      title: Python开发工程师
+      years: 2
+      skills: [Python, Django, 自动化]
+    - company: B数据
+      title: 自动化测试工程师
+      years: 1.5
+      skills: [Playwright, CI/CD, 接口测试]
+
+platform_credentials:
+  boss:
+    username: your_phone_or_email
+    password: your_password
+  zhilian:
+    username: your_phone_or_email
+    password: your_password
+
+min_match_score: 0.4
+qa_rules:
+  远程办公: 支持混合办公，具体可协商。
